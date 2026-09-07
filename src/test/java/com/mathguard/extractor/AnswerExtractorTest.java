@@ -68,6 +68,7 @@ class AnswerExtractorTest {
         assertEquals("42", extractor.extract("The value obtained was 42").orElseThrow());
     }
 
+
     @ParameterizedTest
     @CsvSource({
             "'Final answer: 1.2.3'",
