@@ -1,7 +1,5 @@
 # MathGuard AI
 
-[![Java CI with Maven](https://github.com/salimbukar3/mathguard-ai/actions/workflows/maven.yml/badge.svg)](https://github.com/salimbukar3/mathguard-ai/actions/workflows/maven.yml)
-
 **MathGuard AI** is a Java-based tool for evaluating numerical answers produced by AI systems.
 
 It extracts the most likely final answer from an AI response, normalizes common mathematical formats, compares the result with an expected value, applies configurable numerical tolerance, and returns a structured evaluation report.
