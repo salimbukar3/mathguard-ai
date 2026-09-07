@@ -66,6 +66,7 @@ class NumericValidatorTest {
         assertNull(result.percentageError());
     }
 
+
     @Test
     void zeroTolerancePreservesHighPrecisionDifference() {
         var validator = new NumericValidator(BigDecimal.ZERO, BigDecimal.ZERO);
