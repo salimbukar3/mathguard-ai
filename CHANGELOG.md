@@ -22,6 +22,7 @@
 - Result phrases such as `result is 60` no longer default to the last unrelated number in the sentence.
 - Malformed values such as `1,00` and `12,34,567` are rejected instead of silently normalized.
 - Generic mismatches are no longer overclassified as arithmetic errors.
+
 - Retesting hardened numeric-token boundaries so unsupported forms such as `1e3`, `3.5e2`, `1.2.3`, and `1/2/3` are not partially accepted.
 - `Therefore, 2 + 3 = 5` and `Final answer: 2 + 3 = 5` now select the right-hand-side result.
 - Later result phrases can supersede earlier unmarked equals-sign candidates.
