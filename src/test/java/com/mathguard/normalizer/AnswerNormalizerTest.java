@@ -53,6 +53,7 @@ class AnswerNormalizerTest {
         assertThrows(IllegalArgumentException.class, () -> normalizer.parse(raw));
     }
 
+
     @Test
     void preservesFiniteDecimalPrecisionBeyondDecimal128() {
         String raw = "0.123456789012345678901234567890123456789";
