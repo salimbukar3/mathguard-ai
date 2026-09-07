@@ -1,0 +1,44 @@
+Example 1
+Result: PASS
+Extracted answer: 220
+Expected value: 220
+Actual value: 220
+Absolute difference: 0
+Percentage error: 0%
+Allowed tolerance: 0.0022
+Classification: NONE
+Message: The extracted answer exactly matches the expected value.
+----------------------------------------------------
+Example 2
+Result: PASS
+Extracted answer: 50%
+Expected value: 0.5
+Actual value: 0.5
+Absolute difference: 0
+Percentage error: 0%
+Allowed tolerance: 0.0001
+Classification: NONE
+Message: The extracted answer exactly matches the expected value.
+----------------------------------------------------
+Example 3
+Result: FAIL
+Extracted answer: 420
+Expected value: 400
+Actual value: 420
+Absolute difference: 20
+Percentage error: 5%
+Allowed tolerance: 0.004
+Classification: NUMERICAL_MISMATCH
+Message: The extracted answer differs numerically from the expected value beyond tolerance.
+----------------------------------------------------
+Example 4
+Result: PASS
+Extracted answer: 30
+Expected value: 30
+Actual value: 30
+Absolute difference: 0
+Percentage error: 0%
+Allowed tolerance: 0.0003
+Classification: NONE
+Message: The extracted answer exactly matches the expected value.
+----------------------------------------------------
